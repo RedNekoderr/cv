@@ -22,7 +22,7 @@ body {
 }
 
 a {
-  color: #0074d9; /* From http://clrs.cc */
+  color: #0074d9;
   text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ a:hover, a:focus {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, sans-serif;
-  margin: 0 0 0.5rem -0.1rem /* align left edge */;
+  margin: 0 0 0.5rem -0.1rem;
   line-height: 1;
   color: #111;
   text-rendering: optimizeLegibility;
@@ -150,3 +150,36 @@ pre > code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+/* Стили для сертификатов */
+.certificates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;        /* Больший отступ между изображениями */
+  margin-top: 1rem;
+}
+
+.certificates img {
+  max-width: 150px; /* Уменьшенный размер сертификатов (настройте по необходимости) */
+  height: auto;
+}
+
+/* Стили для блока bio с аватаркой */
+.bio-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.bio-container .avatar {
+  border-radius: 50%;
+  width: 100px;  /* Измените размер по необходимости */
+  height: 100px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.bio-container .bio-text {
+  flex: 1;
+}
+
