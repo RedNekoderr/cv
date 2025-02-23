@@ -61,7 +61,7 @@ __СКФУ__, «Электронника и наноэлектронника»
 - **[ZVGE](https://codeberg.org/Anofio/zvge)**  
   _WIP 3D игровой движок._  
   _Технологии: Zig, Vulkan_  
-  ![ZVGE](#)
+  ![ZVGE](https://i.ibb.co/rGtz9DQZ/Screenshot-from-2025-02-23-14-20-05.png)
 
 ## Сертификаты
 

@@ -468,7 +468,7 @@ pre > code {
   margin-top: 1rem; }
 
 .certificates img {
-  max-width: 150px;
+  max-width: 300px;
   /* Уменьшенный размер сертификатов (настройте по необходимости) */
   height: auto; }
 
